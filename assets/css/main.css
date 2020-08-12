@@ -456,26 +456,39 @@ header {
 .section-team-area img {
     padding-top: 35px;
 }
+.section-team-avatar {
 
-.section-team-area h1{
+}
+
+.section-team-name {
     color: #000;
     margin-top: 15px;
     text-transform: uppercase;
     font-weight: 400;
 }
-.section-team-area p {
+.section-team-role {
     margin-top: 15px;
     color: #777;
     padding-bottom: 20px;
 }
 
-.twitter,
-.instagram,
-.linkedin,
-.facebook,
-.youtube,
-.google-plus {
-    display: inline-block;
-    flex-direction: row;
-    width: auto;
+.section-team-social {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.section-team-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #CCC;
+    border-radius: 13px;
+    margin-left: 5px;
+}
+
+.section-team-social img {
+    margin-bottom: 34px;
 }
