@@ -486,9 +486,13 @@ header {
     height: 25px;
     background-color: #CCC;
     border-radius: 13px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .section-team-social img {
     margin-bottom: 34px;
+}
+
+.section-team-social a:hover {
+    background-color: #B28756;
 }
