@@ -847,6 +847,10 @@ header {
     width: 300px;
 }
 
+.section-contact_us-form #subject {
+    width: 605px;
+}
+
 .section-contact_us-form textarea:focus,
 .section-contact_us-form input:focus {
     outline: 0;
