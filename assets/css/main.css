@@ -826,7 +826,7 @@ header {
 }
 
 .section-contact_us-form textarea {
-    width: 370px;
+    width: 610px;
     height: 150px;
     resize: none;
     background-color: transparent;
@@ -839,6 +839,111 @@ header {
     padding-bottom: 5px;
 }
 
-.botao {
-    
+.section-contact_us-form input[type='text'] {
+    width: 300px;
+}
+
+.section-contact_us-form input[type='email'] {
+    width: 300px;
+}
+
+.section-contact_us-form textarea:focus,
+.section-contact_us-form input:focus {
+    outline: 0;
+}
+
+/* End Contact Us Form */
+
+/* Map */
+
+.section-map {
+    background-image: url(../images/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-map--area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-map--info {
+    width: 50%;
+    padding: 30px;
+    background-color: #FFF;
+    color: #000;
+}
+
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    color: #999;
+}
+
+.section-map--info-item img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.section-map--info-item-img {
+    width: 20px;
+    height: auto;
+}
+
+/* End Map */
+
+/* Footer */
+
+.rodape {
+    background-color: #000;
+    height: 300px;
+    width: 100vw;
+}
+
+.rodape .icons {
+    height: 100%;
+    width: 400px;
+    max-width: 1140px;
+    margin-left: 105px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-icons-social #twitter,
+.section-icons-social #googleplus,
+.section-icons-social #facebook,
+.section-icons-social #linkedin,
+.section-icons-social #pinterest {
+    background-color: #777;
+}
+ 
+.section-icons-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #CCC;
+    border-radius: 13px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.icons p {
+    color: #FFF;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 150px;
+    margin-top: 180px;
 }
